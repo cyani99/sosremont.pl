@@ -1,25 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './sosremont.png';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='w-screen animated-background h-screen bg-gradient-to-r from-stone-950 via-stone-900 to-zinc-900'>
+      <p className="flex h-screen w-full justify-center items-center">
+            <img src={logo} className="w-100" alt="logo" />
+      </p>
     </div>
+
   );
 }
 
