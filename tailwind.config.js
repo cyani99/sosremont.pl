@@ -5,7 +5,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'custom-gold': '#C5AD57',
+      }
+    },
+    fontFamily: {
+      teko: ['Teko', 'sans-serif']
+    }
   },
   plugins: [],
 }
